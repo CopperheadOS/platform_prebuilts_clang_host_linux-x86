@@ -585,7 +585,7 @@ set_target_properties(LLVMAsmParser PROPERTIES
 add_library(LLVMLineEditor STATIC IMPORTED)
 
 set_target_properties(LLVMLineEditor PROPERTIES
-  INTERFACE_LINK_LIBRARIES "LLVMSupport;edit;LLVMSupport"
+  INTERFACE_LINK_LIBRARIES "LLVMSupport;LLVMSupport"
 )
 
 # Create imported target LLVMProfileData
